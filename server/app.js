@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var port = process.env.PORT || 8080;
+
 
 //Import routes
 let apiRoutes = require("./routes");
